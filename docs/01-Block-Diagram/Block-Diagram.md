@@ -6,19 +6,11 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+My voltage will be 5V all around and will be using a ultrasonic sensor to detect motion as part of our teams light that will be actiavted by different inputs. 
 
 
-## Example Block Diagram 
+## Block Diagram 
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Indivial Block diagram ](BlockDiagram.drawio.png)
+(https://app.diagrams.net/#G1rQFn4Sh_jxuRcLE5AkU6wQEz31pbD2Ht#%7B%22pageId%22%3A%22ztoAM4M2pOlv_ggdo6h-%22%7D)
