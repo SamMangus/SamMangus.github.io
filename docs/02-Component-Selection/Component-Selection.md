@@ -1,39 +1,135 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-### Style 2
 
-> Also acceptable, more markdown friendly
+**Ultra sonic sensor**
 
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
+1. 	1568-15569-ND ULTRASONIC DISTANCE SENSOR
 
     ![](image1.jpg)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $5.25/each
+    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/sparkfun-electronics/15569/10384560?s=N4IgTCBcDaIMoFEByBaAjAVgwNgJwgF0BfIA)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Max range of 4 meters                               | More expensive |
+    | Working volatge of 5V DC                      | Larger footprint                                        |
+    | 4 pins |
 
-1. CTX936TR-ND surface mount oscillator
+1. 	1528-2832-ND Ultra sonic sensor
 
-    ![](image3.png)
+    ![](image2.jpg)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $3.95/each
+    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Less expensive                                          | Lower detection range      |
+    | 3.3-5V working voltage                                 | Slow shipping speed |
+    | 0-70 C operating temprature |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+1. 	1528-4019-ND Ultrasonic distance sensor
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+    ![](image3.jpg)
+
+    * $6.95/each
+    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4019/9808308)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Less expensive                                          | Most expensive      |
+    | 3.3-5V working voltage                                 | Inconsistent reading at >250 cm |
+    | UART output pin |
+
+**Choice:** Option 1: 1568-15569-ND ULTRASONIC DISTANCE SENSOR
+
+**Rationale:** The price is the middle of the road and while it's only working voltage is 5V that's not an issue because the rest of the components in my circuits run off 5V DC. Also this sensor has the best range and only has 4 pins with a small footprint.
+
+**Op-Amps**
+
+1. 	MCP6004-I/P-ND Op-Amp
+
+    ![](image4.webp)
+
+    * $0.59/each
+    * [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?s=N4IgTCBcDaILIGEAKA2ADGgLAWgJIHolsA5AERAF0BfIA)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | 1.8-6V operating range                               | Not extremely precise |
+    | Designed for low power applications                      | Limited bandwidth                                        |
+
+1. 	LM324ADR IC Op-Amp
+
+    ![](image5.webp)
+
+    * $0.30/each
+    * [LM324ADR](https://www.digikey.com/en/products/detail/texas-instruments/LM324ADR/381227)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Less expensive                                          | Poor noise performance      |
+    | Wide working voltage range                                 | Smaller temprature range |
+    | Easy to obtain |
+
+1. 	296-1395-5-ND Op-Amp
+
+    ![](image6.webp)
+
+    * $0.27/each
+    * [LM358P](https://www.digikey.com/en/products/detail/texas-instruments/LM358P/277042)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Least expensive                                          | 2 integrated op-amps      |
+    | Fast shipping                                 | Higher supply current |
+
+**Choice:** Option 1: MCP6004-I/P-ND Op-Amp
+
+**Rationale:** It supports a low supply volatge while still offering 4 op-amps and has rail to rail input and output. the MCP6004 also draws low current and the pins are spaced standardly making it's footprint easy also it is moderately priced and easy to obtain making it the best overall pick.
+
+**Volatge regulator**
+
+1. 	296-17077-ND IC REG LINEAR
+
+    ![](image7.webp)
+
+    * $1.02/each
+    * [UA7905](https://www.digikey.com/en/products/detail/texas-instruments/UA7905CKCS/660187)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | 1.5A output current                               | Possible overheating |
+    | Simple 3 pins                      | Fixed output voltage                                        |
+
+1. 	TC1014-3.3VCT713TR-ND
+
+    ![](image8.webp)
+
+    * $0.30/each
+    * [TC1014](https://www.digikey.com/en/products/detail/microchip-technology/TC1014-3-3VCT713/443111)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Good temprature range                                          | Output current limited to 50 mA      |
+    | Low power consumption                                 | Fixed 3.3V output |
+    | Small footprint |
+
+1. 	AS78L05RTR-E1DITR-ND
+
+    ![](image9.webp)
+
+    * $0.13/each
+    * [AS78L05RTR](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Least expensive                                          | 100 mA output      |
+    | 5V output                                 | Poor heat dissipation |
+
+**Choice:** Option 1: 296-17077-ND IC REG LINEAR
+
+**Rationale:** It is easy to integrate into the project with a simple 3 pin layout and still relatively small footprint. It also outputs the most current and is tied with option 3 for 5V output it is the best overall option for this project.
