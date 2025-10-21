@@ -4,13 +4,13 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support our automated light by detecting motion and prompting the light to turn on.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](SubsystemDesign-1.png){style width:"350" height:"300;"}
+**Figure ##:** 
 
 
-## Resouces
+## Resources
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](SubsystemDesign.pdf), and the Zip folder of the project [*here*](subsystemdesign.zip).
