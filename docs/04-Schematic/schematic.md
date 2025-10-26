@@ -13,4 +13,4 @@ This schematic is design to support our automated light by detecting motion and 
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](SubsystemDesign.pdf), and the Zip folder of the project [*here*](subsystemdesign.zip).
+The schematic as a PDF download is available [*here*](SubsystemDesign.pdf), and the Zip folder of the project [*here*](SubsystemFinal.zip).
