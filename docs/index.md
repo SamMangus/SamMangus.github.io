@@ -31,4 +31,4 @@ for<br>
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
-To review the block diagram for more information about the subsytem, you can review it in the ["Block-Diagram"](V=docs/01-Block-Diagram)
+To review the block diagram for more information about the subsytem, you can review it in the ["Block-Diagram"](https://sammangus.github.io/01-Block-Diagram/Block-Diagram/)
