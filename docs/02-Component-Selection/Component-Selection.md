@@ -93,17 +93,17 @@ title: Component Selection
 
 **Volatge regulator**
 
-1. 	296-17077-ND IC REG LINEAR
+1. 	5536-LM7805T-ND IC REG LINEAR
 
     ![](image7.webp)
 
-    * $1.02/each
-    * [UA7905](https://www.digikey.com/en/products/detail/texas-instruments/UA7905CKCS/660187)
+    * $0.33/each
+    * [LM7805](https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | 1.5A output current                               | Possible overheating |
-    | Simple 3 pins                      | Fixed output voltage                                        |
+    | Simple 3 pins                      | Fixed 5V output voltage                                        |
 
 1. 	TC1014-3.3VCT713TR-ND
 
