@@ -21,7 +21,7 @@ for<br>
 ### Project Summary
 
 * Our goal for this project was to design a solution for a home product that includes a simple sensor and for each of the team members to have a working subsystem on a PCB-printed circuit board that will function together to make one cohesive product.
-* For more information on our project as a whole you can visit our [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* For more information on our project as a whole you can visit our [team report.](https://egr304-team-205-2025-f.github.io/EGR304-2025-F-205.github.io/)
 
 
 ### My Contribution
