@@ -5,28 +5,28 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">(Sam Mangus) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Bright Light</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 205 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: October, 26, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This datasheet will cover my portion of the project which includes the design of the motion detection system, the reasoning behind the selection of components and the project constraints.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* Our goal for this project was to design a solution for a home product that includes a simple sensor and for each of the team members to have a working subsystem on a PCB-printed circuit board that will function together to make one cohesive product.
+* For more information on our project as a whole you can visit our [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
+* I was responsible for the motion detection which will be one of the three sensory inputs our light will detect to activate. The motion detection system will gather environmental data from the ultrasonic sensor and determine if the light should be in an on/off state and then communicate that to our control board. 
 * Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
