@@ -1,5 +1,5 @@
 ---
-title: Schematic
+title: Night detection schematic
 ---
 
 ## Overview
@@ -8,7 +8,7 @@ This schematic is design to support our automated light by detecting lux and pro
 
 
 ![schematic](SubsystemDesign-1.png){style width:"350" height:"300;"}
-**Figure ##:** 
+**Figure 1:Schematic** 
 
 
 ## Resources

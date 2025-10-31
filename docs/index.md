@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* This datasheet will cover my portion of the project which includes the design of the motion detection system, the reasoning behind the selection of components and the project constraints.
+* This datasheet will cover my portion of the project which includes the design of the night detection system, the reasoning behind the selection of components and the project constraints.
 
 ### Project Summary
 
@@ -26,7 +26,7 @@ for<br>
 
 ### My Contribution
 
-* I was responsible for the motion detection which will be one of the three sensory inputs our light will detect to activate. The motion detection system will gather environmental data from the ultrasonic sensor and determine if the light should be in an on/off state and then communicate that to our control board. 
+* I was responsible for the night detection which will be one of the two sensory inputs our light will detect to activate. The night detection system will gather environmental data from the photo resistor and determine if the light should be in an on/off state and then communicate that to our control board. 
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 

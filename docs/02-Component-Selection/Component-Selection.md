@@ -3,7 +3,7 @@ title: Component Selection
 ---
 
 
-**Ultra sonic sensor**
+**Photo Resistor**
 
 1. 	1568-15569-ND ULTRASONIC DISTANCE SENSOR
 
