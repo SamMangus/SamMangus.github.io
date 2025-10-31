@@ -5,48 +5,48 @@ title: Component Selection
 
 **Photo Resistor**
 
-1. 	1568-15569-ND ULTRASONIC DISTANCE SENSOR
+1. 	1528-161-ND 
 
-    ![](image1.jpg)
+    ![](image1.webp)
 
-    * $5.25/each
-    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/sparkfun-electronics/15569/10384560?s=N4IgTCBcDaIMoFEByBaAjAVgwNgJwgF0BfIA)
+    * $.95/each
+    * [Photo resistor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Max range of 4 meters                               | More expensive |
-    | Working volatge of 5V DC                      | Larger footprint                                        |
-    | 4 pins |
+    | 200k to 10k resistance range                               | More expensive |
+    | Works witha power supply up to 100V                      | Larger footprint                                        |
+    | Comprehensive datasheet |
 
-1. 	1528-2832-ND Ultra sonic sensor
+1. 	NORPS-12-ND 
 
-    ![](image2.jpg)
+    ![](image2.webp)
 
-    * $3.95/each
-    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4007/9857020)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Less expensive                                          | Lower detection range      |
-    | 3.3-5V working voltage                                 | Slow shipping speed |
-    | 0-70 C operating temprature |
-
-1. 	1528-4019-ND Ultrasonic distance sensor
-
-    ![](image3.jpg)
-
-    * $6.95/each
-    * [Ultrasonic sensor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4019/9808308)
+    * $2.23/each
+    * [Photo resistor](https://www.digikey.com/en/products/detail/advanced-photonix/NORPS-12/5039796)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Less expensive                                          | Most expensive      |
-    | 3.3-5V working voltage                                 | Inconsistent reading at >250 cm |
-    | UART output pin |
+    | Larger detection range                                          | Significantly more expensive      |
+    | Up to 1M ohm resistance                                 | Slow shipping speed |
+    | -30-70 C operating temprature |
 
-**Choice:** Option 1: 1568-15569-ND ULTRASONIC DISTANCE SENSOR
+1. 	PDV-P5001-ND 
 
-**Rationale:** The price is the middle of the road and while it's only working voltage is 5V that's not an issue because the rest of the components in my circuits run off 5V DC. Also this sensor has the best range and only has 4 pins with a small footprint.
+    ![](image3.webp)
+
+    * $1.54/each
+    * [Photo resistor](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P5001/480599)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | 400-700 nm detection range                                          | Largest footprint      |
+    | 350V peak to peak                                 | Shipping time |
+    | up to 300k ohm resistance |
+
+**Choice:** Option 1: 1528-161-ND
+
+**Rationale:** The price is the lowest of the three and while it's performance is worse than the other two it is still more than sufficient for this project and will be the easiest to obtain
 
 **Op-Amps**
 
