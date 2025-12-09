@@ -50,7 +50,7 @@ title: Component Selection
 
 **Op-Amps**
 
-1. 	MCP6004-I/P-ND Op-Amp
+1. MCP6004
 
     ![](image4.webp)
 
@@ -133,3 +133,28 @@ title: Component Selection
 **Choice:** Option 1: 296-17077-ND IC REG LINEAR
 
 **Rationale:** It is easy to integrate into the project with a simple 3 pin layout and still relatively small footprint. It also outputs the most current and is tied with option 3 for 5V output it is the best overall option for this project.
+
+**Major components selected**
+
+1. 	OP-AMP: MCP6004
+
+    ![](image4.webp)
+
+    * $0.59/each
+   * [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060?s=N4IgTCBcDaILIGEAKA2ADGgLAWgJIHolsA5AERAF0BfIA)
+
+1. 	Photo resistor: 1528-161-ND 
+
+    ![](image1.webp)
+
+    * $.95/each
+    * [Photo resistor](https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927)
+
+1. 	Voltage regulator: 5536-LM7805T-ND IC REG LINEAR
+
+    ![](image7.webp)
+
+    * $0.33/each
+    * [LM7805](https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260)
+
+
