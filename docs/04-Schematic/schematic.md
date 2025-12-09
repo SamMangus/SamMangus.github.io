@@ -14,3 +14,5 @@ This schematic is design to support our automated light by detecting lux and pro
 ## Resources
 
 The schematic as a PDF download is available [*here*](SubsystemDesign.pdf)
+
+The individual schematic is available withing the zip folder found [*here*](SubsystemDesign.zip)
